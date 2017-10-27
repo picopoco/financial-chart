@@ -1,0 +1,14 @@
+#https://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/
+sudo apt-get install  python3.5-dev
+
+conda create -n tensor27 python=2.7
+$ source activate tensor27
+$ conda install -c tensor27  tensorflow
+
+conda install -c msarahan requirements_txt_run_reqs
+o install Chainer, use pip.
+
+$ pip install chainer
+To enable CUDA support, set up CUDA and install CuPy.
+
+$ pip install cupy
